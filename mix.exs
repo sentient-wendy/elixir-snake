@@ -7,6 +7,7 @@ defmodule Snake.Mixfile do
      elixir: "~> 1.1-dev",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     escript: [main_module: Snake.CLI],
      deps: deps]
   end
 

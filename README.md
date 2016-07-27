@@ -1,6 +1,15 @@
-# elixir-snake
+# Command Line Version of elixir-snake
 
 ## Description
+
+Turning Github user arthurcolle's elixir-snake project into a command line tool 
+using escript. See http://erlport.org/ for info about calling Python
+code from Elixir, and http://ieftimov.com/writing-elixir-cli-apps for info
+about making an Elixir app into a command line tool. 
+
+
+
+Original readme from arthurcolle follows below.
 
 Example repository to show what the equivalents of the Erlang/Python examples on [this page](http://erlport.org/docs/python.html) look like so that they work in an Elixir/Mix application.
 

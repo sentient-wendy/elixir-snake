@@ -40,3 +40,15 @@ defmodule Snake do
     :python.call(pp, :geo, :run, [])
   end
 end
+
+
+defmodule Snake.CLI do
+  def main(argv) do
+    {options, _, _} = OptionParser.parse(argv,
+     switches: [name: :string],
+   )
+
+   IO.inspect options
+  end
+end
+
